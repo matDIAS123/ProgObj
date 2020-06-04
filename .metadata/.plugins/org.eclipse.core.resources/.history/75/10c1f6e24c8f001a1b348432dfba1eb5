@@ -1,0 +1,15 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Lutador l[] = new Lutador[6];
+		
+		l[0] = new Lutador("Matheus", "Brazil", 15, 1.67f, 65.5f, 11, 2, 1);
+		
+		l[1] = new Lutador("Joao", "Gabao 1.80f, 85.5f, 1, 20, 1);
+
+		l.status();
+	}
+
+}

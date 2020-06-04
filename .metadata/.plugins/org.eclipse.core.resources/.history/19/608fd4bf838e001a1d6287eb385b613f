@@ -1,0 +1,21 @@
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		Data d1 = new Data(02,10,2018);
+		
+       System.out.println (d1);
+       
+      
+       Estudante e1 = new Estudante(123, "matheus");
+       
+       e1.setNotas(8, 6, 5);
+       e1.calculaMedia1(2);
+       e1.extra = 2;
+       System.out.println(e1.recuperaDadosParaImpressao());
+       System.out.println("Media com pontuação extra: " +( e1.calculaMedia()+e1.calculaMedia1(2)));
+	}
+
+}

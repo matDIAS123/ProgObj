@@ -1,0 +1,46 @@
+
+public class Estudante {
+
+	private int codigo;
+	private String nome;
+	private Data dataNasc;
+	private double notaMat;
+	private double notaPort;
+	private double notaCien;
+	public double extra;
+	
+	public int getCodigo(){
+		return codigo;
+	}
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNotas(double notaMat, double notaPort, double notaCien) {
+	
+		this.notaMat = notaMat;
+
+		this.notaPort = notaPort;
+
+		this.notaCien = notaCien;
+	
+	}
+	
+	public double calculaMedia(double notaMat, double notaPort, double notaCien) {
+	double media;
+		
+		media = (notaMat + notaPort +notaCien)/3;
+		
+	return media;
+	
+	}
+	
+	
+	public double calculaMedia1(double extra) {
+		
+		return extra;
+		
+	}
+
+}
+

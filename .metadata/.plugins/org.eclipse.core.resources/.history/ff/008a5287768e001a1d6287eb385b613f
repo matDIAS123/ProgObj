@@ -1,0 +1,11 @@
+
+public class Estudante {
+
+	private int codigo;
+	private String nome;
+	private Data dataNasc;
+	private double notaMat;
+	private double notaPort;
+	private double notaCien;
+
+}
